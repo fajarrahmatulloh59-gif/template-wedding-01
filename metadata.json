@@ -1,0 +1,6 @@
+{
+  "name": "Template 01 - Minimalist Elegant Wedding Invitation",
+  "description": "Master digital wedding invitation template with minimalist elegant visual design, cover unlock transition, couple profiles, real-time countdown, event details, love story timeline, photo gallery, location maps, background music controller, and RSVP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

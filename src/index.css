@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-display: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-script: 'Alex Brush', cursive;
+    --font-arabic: 'Amiri', serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #2D2A26;
+    background-color: #FDFBF7;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif-elegant {
+  font-family: var(--font-serif);
+}
+
+.font-display-luxury {
+  font-family: var(--font-display);
+}
+
+.font-script-accent {
+  font-family: var(--font-script);
+}
+
+.font-arabic-calligraphy {
+  font-family: var(--font-arabic);
+}
+
+/* Custom subtle parchment/linen texture effect */
+.bg-parchment {
+  background-color: #FDFBF7;
+  background-image: radial-gradient(#E8DFD3 0.75px, transparent 0.75px), radial-gradient(#E8DFD3 0.75px, #FDFBF7 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Smooth glassmorphic effect with warm undertone */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 197, 178, 0.45);
+}
+
+/* Minimalist elegant frame border */
+.border-gold-accent {
+  border-color: #C5A880;
+}
+
+/* Custom scrollbar for gallery and guestbook */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4EFEA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4C5B2;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BFA98F;
+}
+
+/* Music vinyl spin animation */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+
+/* Floating pulse effect */
+@keyframes soft-float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-soft-float {
+  animation: soft-float 4s ease-in-out infinite;
+}

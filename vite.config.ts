@@ -4,7 +4,7 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  return {
+  return { base: '/template-wedding-01/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

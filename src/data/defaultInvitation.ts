@@ -176,7 +176,7 @@ export const defaultWeddingData: WeddingData = {
     enabled: true,
     title: 'A Thousand Years (Acoustic Piano & Cello)',
     artist: 'Wedding Symphony Collection',
-    trackUrl: '' // Uses ambient Web Audio API romantic melody synthesizer or audio stream
+    trackUrl: '/public.asset/music/wedding sound.mp3' // Uses ambient Web Audio API romantic melody synthesizer or audio stream
   },
   digitalGift: {
     enabled: true,

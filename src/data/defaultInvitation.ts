@@ -17,7 +17,7 @@ export const defaultWeddingData: WeddingData = {
     sonOrDaughterOf: 'Putri kedua dari',
     fatherName: 'Bpk. Dr. H. Rahman Hakim',
     motherName: 'Ibu Hj. Farida Hanum',
-    photo: '/public.asset/image/mempelai wanita 1.webp',
+    photo: '/public/image/mempelai wanita.jpg',
     instagram: 'aisyahjannah',
     bio: 'Pharmacist & Passionate Baker'
   },

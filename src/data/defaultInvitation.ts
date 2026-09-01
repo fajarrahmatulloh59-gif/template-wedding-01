@@ -17,7 +17,7 @@ export const defaultWeddingData: WeddingData = {
     sonOrDaughterOf: 'Putri kedua dari',
     fatherName: 'Bpk. Dr. H. Rahman Hakim',
     motherName: 'Ibu Hj. Farida Hanum',
-    photo: '/public.asset/image/mempelai wanita.jpg',
+    photo: 'mempelai wanita.jpg',
     instagram: 'aisyahjannah',
     bio: 'Pharmacist & Passionate Baker'
   },
@@ -176,7 +176,7 @@ export const defaultWeddingData: WeddingData = {
     enabled: true,
     title: 'A Thousand Years (Acoustic Piano & Cello)',
     artist: 'Wedding Symphony Collection',
-    trackUrl: '/public.asset/music/wedding sound.mp3' // Uses ambient Web Audio API romantic melody synthesizer or audio stream
+    trackUrl: 'wedding sound.mp3' // Uses ambient Web Audio API romantic melody synthesizer or audio stream
   },
   digitalGift: {
     enabled: true,

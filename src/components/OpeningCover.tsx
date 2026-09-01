@@ -18,11 +18,14 @@ export const OpeningCover: React.FC<OpeningCoverProps> = ({ data, guestName, onO
       className="fixed inset-0 z-50 flex flex-col items-center justify-between min-h-screen bg-[#FAF7F2] text-[#2C2926] p-6 sm:p-10 select-none overflow-hidden"
     >
       {/* Subtle background ambient frame */}
-      <div className="absolute inset-4 sm:inset-8 border border-[#DFD3C3] pointer-events-none rounded-2xl opacity-60">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#FAF7F2] px-4 text-[#B39366] text-xs uppercase tracking-[0.3em] font-medium">
-          Official Invitation
-        </div>
-      </div>
+<div className="absolute inset-4 sm:inset-8 border border-[#DFD3C3] pointer-events-none rounded-2xl opacity-60">
+  <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center">
+    <span className="bg-[#FAF7F2] px-4 text-[#B39366] text-xs uppercase tracking-[0.3em] font-medium whitespace-nowrap">
+      Official Invitation
+    </span>
+  </div>
+</div>
+
 
       {/* Decorative subtle corner accents */}
       <div className="absolute top-6 left-6 text-[#CBB8A1] text-xs font-serif-elegant opacity-40">✤</div>

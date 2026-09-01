@@ -22,7 +22,7 @@ export const defaultWeddingData: WeddingData = {
     bio: 'Pharmacist & Passionate Baker'
   },
   meta: {
-    heroTitle: 'The Wedding of tes cloudflare',
+    heroTitle: 'The Wedding of',
     coupleMonogram: 'A & A',
     weddingDateFormatted: 'Minggu, 20 Desember 2026',
     weddingDateShort: '20.12.2026',

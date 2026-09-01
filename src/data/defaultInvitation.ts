@@ -7,7 +7,7 @@ export const defaultWeddingData: WeddingData = {
     sonOrDaughterOf: 'Putra pertama dari',
     fatherName: 'Bpk. H. Bambang Sudirman',
     motherName: 'Ibu Hj. Siti Aminah',
-    photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop',
+    photo: '/image/mempelai pria.webp',
     instagram: 'ahmadfauzi',
     bio: 'Software Engineer & Lifelong Learner'
   },
@@ -27,7 +27,7 @@ export const defaultWeddingData: WeddingData = {
     weddingDateFormatted: 'Minggu, 20 Desember 2026',
     weddingDateShort: '20.12.2026',
     countdownTarget: '2026-12-20T08:00:00+07:00',
-    coverPhoto: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1400&auto=format&fit=crop',
+    coverPhoto: '/image/mempelai',
     heroPhoto: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1200&auto=format&fit=crop',
     closingPhoto: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1200&auto=format&fit=crop'
   },

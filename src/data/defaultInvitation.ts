@@ -27,7 +27,7 @@ export const defaultWeddingData: WeddingData = {
     weddingDateFormatted: 'Minggu, 20 Desember 2026',
     weddingDateShort: '20.12.2026',
     countdownTarget: '2026-12-20T08:00:00+07:00',
-    coverPhoto: '/image/mempelai.png',
+    coverPhoto: '/image/mempelai wanita 2.webp',
     heroPhoto: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1200&auto=format&fit=crop',
     closingPhoto: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1200&auto=format&fit=crop'
   },

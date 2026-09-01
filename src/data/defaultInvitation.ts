@@ -13,7 +13,7 @@ export const defaultWeddingData: WeddingData = {
   },
   bride: {
     name: 'Aisyah',
-    fullName: 'Aisyah Nurul Jannah, S.Farm.',
+    fullName: 'maronah binti saidin',
     sonOrDaughterOf: 'Putri kedua dari',
     fatherName: 'Bpk. Dr. H. Rahman Hakim',
     motherName: 'Ibu Hj. Farida Hanum',
@@ -22,7 +22,7 @@ export const defaultWeddingData: WeddingData = {
     bio: 'Pharmacist & Passionate Baker'
   },
   meta: {
-    heroTitle: 'The Wedding of',
+    heroTitle: 'The Wedding of maronah dan imin',
     coupleMonogram: 'A & A',
     weddingDateFormatted: 'Minggu, 20 Desember 2026',
     weddingDateShort: '20.12.2026',
